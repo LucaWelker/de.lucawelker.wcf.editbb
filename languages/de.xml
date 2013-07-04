@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE language SYSTEM "http://www.woltlab.com/DTDs/language.dtd">
+<language languagecode="de">
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.editbbcodes"><![CDATA[Edit BBCodes]]></item>
+		<item name="wcf.acp.option.category.editbbcodes.general"><![CDATA[Allgemein]]></item>
+		<item name="wcf.acp.option.board_editBBCodes_enable"><![CDATA[Edit BBCodes aktivieren]]></item>
+		<item name="wcf.acp.option.category.editbbcodes.errors"><![CDATA[Fehlermeldungen]]></item>
+		<item name="wcf.acp.option.board_editBBCodes_showEnableError"><![CDATA[Fehlermeldung wenn nicht aktiv]]></item>
+		<item name="wcf.acp.option.board_editBBCodes_everybodyCanUse"><![CDATA[Jede Benutzergruppe kann den [modedit]-BBCode benutzen]]></item>
+
+		<item name="wcf.acp.option.category.editbbcodes.description"><![CDATA[Einstellungen für EditBBCodes]]></item>
+		<item name="wcf.acp.option.category.editbbcodes.general.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.board_editBBCodes_enable.description"><![CDATA[Gibt an ob die Verwendung von [edit] und [modedit] aktiviert ist]]></item>
+		<item name="wcf.acp.option.category.editbbcodes.errors.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.board_editBBCodes_showEnableError.description"><![CDATA[Zeigt eine Fehlermeldung an, wenn die BBCodes deaktiviert sind.]]></item>
+		<item name="wcf.acp.option.board_editBBCodes_everybodyCanUse.description"><![CDATA[Wenn diese Option aktiviert ist, kann jede Benutzergruppe automatisch IMMER den [modedit]-BBCode nutzen.]]></item>
+	</category>	
+
+	<category name="wbb.threadAdd">
+		<item name="wbb.threadAdd.editBBCode.bbCodeDisabledException"><![CDATA[Die EditBBCodes sind deaktiviert.]]></item>
+	</category>
+
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.mod.board.canUseModEditBBCode"><![CDATA[Kann den [modedit] BBCode benutzen.]]></item>
+		<item name="wcf.acp.group.option.mod.board.canUseModEditBBCode.description"><![CDATA[Mitglieder dieser Benutzergruppe können den [modedit]-BBCode benutzen.]]></item>
+	</category>
+</language>

@@ -1,0 +1,17 @@
+.editBBCode
+{
+	color: black;
+ 	border: 2px dashed black;
+ 	padding: 3px;
+ 	width: auto;
+}
+.modEdit
+{
+	color: red !important;
+	border-color: red !important;
+}
+.editBBCodeHeader 
+{
+	font-weight: bold;
+	margin-bottom: 5px;
+}

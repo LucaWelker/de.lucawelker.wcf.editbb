@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.de" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/options.xsd">
+	<import>
+		<categories>
+			<category name="editbbcodes">
+				<parent>board</parent>
+			</category>
+			<category name="editbbcodes.general">
+				<parent>editbbcodes</parent>
+				<showorder>1</showorder>
+			</category>
+			<category name="editbbcodes.errors">
+				<parent>editbbcodes</parent>
+				<showorder>2</showorder>
+			</category>
+		</categories>
+
+		<options>
+			<option name="board_editBBCodes_enable">
+				<categoryname>editbbcodes.general</categoryname>
+				<optiontype>boolean</optiontype>
+				<showorder>1</showorder>
+				<defaultvalue>1</defaultvalue>
+				<enableoptions><![CDATA[!board_editBBCodes_showEnableError]]></enableoptions>
+			</option>
+			<option name="board_editBBCodes_everybodyCanUse">
+				<categoryname>editbbcodes.general</categoryname>
+				<optiontype>boolean</optiontype>
+				<showorder>2</showorder>
+				<defaultvalue>1</defaultvalue>
+				<enableoptions><![CDATA[mod.board.canUseModEditBBCode]]></enableoptions>
+			</option>
+			<option name="board_editBBCodes_showEnableError">
+				<categoryname>editbbcodes.errors</categoryname>
+				<optiontype>boolean</optiontype>
+				<showorder>1</showorder>
+				<defaultvalue>0</defaultvalue>
+			</option>
+		</options>
+	</import>
+</data>
